@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:id="@+id/items">
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1" android:layout_width="fill_parent">
+		<TextView  android:id="@+id/uname_textView"
+			android:gravity="center" android:textSize="25px" android:text="李四 "
+			android:layout_width="100px" android:layout_height="fill_parent"></TextView>
+		<LinearLayout android:layout_marginTop="10px"  
+			android:layout_marginBottom="10px" android:layout_marginRight="5px"
+			 android:layout_height="wrap_content"
+			android:id="@+id/info_linearLayout" android:orientation="vertical"
+			android:layout_width="fill_parent">
+			<TextView  android:id="@+id/time_textView"
+				android:layout_height="wrap_content" android:gravity="right" android:text="时间:2013-3-3 22:22:22"
+				android:layout_width="fill_parent"></TextView>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

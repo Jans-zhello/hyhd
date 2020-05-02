@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Client</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="color1">#9BD7FF</color>
+    <color name="color2">#000000</color>
+    <color name="color3">#E8F5FF</color>
+    <color name="color4">#FFFFFF</color>
+</resources>

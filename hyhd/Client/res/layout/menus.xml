@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal">
+	<Button android:text="声音 " android:id="@+id/amrbutton"
+		android:layout_width="60px" android:layout_height="60px"></Button>
+	<Button android:text="照相 " android:id="@+id/imagebutton"
+		android:layout_width="60px" android:layout_height="60px"></Button>
+	<!-- <Button android:text="扩展 " android:id="@+id/imagebutton1"
+		android:layout_width="60px" android:layout_height="60px"></Button>
+	<Button android:text="扩展 " android:id="@+id/imagebutton2"
+		android:layout_width="60px" android:layout_height="60px"></Button> -->
+	 
+</LinearLayout>

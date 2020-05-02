@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center">
+	<TextView android:layout_width="fill_parent"
+		android:layout_marginTop="30px" android:layout_marginBottom="20px"
+		android:id="@+id/textView1" android:layout_height="wrap_content"
+		android:textSize="50px" android:gravity="center" android:text="好友互动平台 "></TextView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+		<TextView android:text="userid::" android:id="@+id/textView2"
+			android:layout_marginLeft="5px" android:layout_width="120px"
+			android:layout_height="wrap_content"></TextView>
+		<EditText android:layout_width="wrap_content"
+			android:layout_weight="1" android:layout_height="wrap_content"
+			android:id="@+id/username_editText" android:text="10005" android:layout_marginRight="5px">
+			<requestFocus></requestFocus>
+		</EditText>
+	</LinearLayout>
+
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_marginBottom="30px" android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1">
+		<TextView android:text="password::" android:id="@+id/textView2"
+			android:layout_marginLeft="5px" android:layout_width="120px"
+			android:layout_height="wrap_content"></TextView>
+		<EditText android:layout_width="wrap_content"
+			android:layout_weight="1" android:layout_marginRight="5px" android:text="111"
+			android:layout_height="wrap_content" android:id="@+id/password_editText"
+			android:password="true">
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout2"
+		android:gravity="center">
+		<Button android:text="登录 " android:layout_marginRight="5px"
+			android:id="@+id/submit_button" android:layout_width="150px"
+			android:layout_height="wrap_content"></Button>
+		<Button android:text="注册 " android:layout_marginLeft="5px"
+			android:id="@+id/reg_button" android:layout_width="150px"
+			android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>
